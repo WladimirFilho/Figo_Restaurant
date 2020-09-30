@@ -1,0 +1,75 @@
+/* hero section mobile*/
+@media screen and (max-width: 420px) {
+	/* MEALS SECTION */
+	.meals {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.meals_titles_wrapper {
+		width: 100%;
+		margin-top: 20px;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+
+	.meals_titles {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	a.meals_titles {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	a.breakfast:hover {
+		color: orange;
+		font-weight: 600;
+	}
+
+	a.dinner:hover {
+		color: orange;
+		font-weight: 600;
+	}
+
+	a.deserts {
+		display: none;
+	}
+	a.soups {
+		display: none;
+	}
+	a.drinks {
+		display: none;
+	}
+
+	.meals_container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.meals_arrows {
+		display: none;
+	}
+
+	/* WEEK SPECIAL SECTION */
+	.weekSpecial_wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-top: 3px solid orange;
+	}
+
+	.weekSpecial_title {
+		margin-top: 30px;
+	}
+
+	.weekSpecial_cards {
+		display: flex;
+		flex-direction: column;
+	}
+}

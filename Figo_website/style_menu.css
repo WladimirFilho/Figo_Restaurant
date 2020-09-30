@@ -1,0 +1,146 @@
+/* hero section Desktop*/
+.hero_Middle_Wrapper {
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 600px;
+	align-items: center;
+	margin-top: 80px;
+}
+
+.hero_Middle_Wrapper_mobile {
+	display: none;
+}
+
+.hero_Title {
+	color: black;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 1em;
+	margin-bottom: 50px;
+}
+
+.hero_Text {
+	color: #8d8d8d;
+	font-family: "Poppins", sans-serif;
+	line-height: 1.9em;
+	margin-top: 20px;
+	margin-bottom: 70px;
+	font-size: 15px;
+}
+
+.hero_BigImage {
+	margin-top: 10px;
+	height: 475px;
+	background-image: url(images/hero_bigImage.png);
+	background-size: cover;
+	background-position: center;
+}
+
+/* MEALS SECTION */
+.meals {
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+.meal_main_title {
+	padding-top: 80px;
+	font-size: 30pt;
+}
+
+.meals_titles_wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+
+.meals_titles > a {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: start;
+	margin-left: 0;
+	margin-bottom: 35px;
+	font-size: 20px;
+}
+
+.meals_titles > a:hover {
+	color: orange;
+	font-weight: 900;
+}
+
+.meals_container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 35px;
+}
+
+.meals_arrows {
+	width: 150px;
+	margin-left: 90%;
+	margin-top: 50px;
+}
+
+/* Week Special */
+.weekSpecial_wrapper {
+	max-width: 70%;
+	margin: 50px auto;
+}
+
+.weekSpecial_cards {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 3rem;
+}
+
+.card1_image > img {
+	border-radius: 10pt;
+	width: 100%;
+	height: 230px;
+	object-fit: cover;
+}
+
+.card2_image > img {
+	border-radius: 10pt;
+	width: 100%;
+	height: 230px;
+	object-fit: cover;
+}
+
+.card3_image > img {
+	border-radius: 10pt;
+	width: 100%;
+	height: 230px;
+	object-fit: cover;
+}
+
+.card_title {
+	font-size: 20px;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 900;
+	color: black;
+	line-height: 30px;
+	margin-top: 15px;
+}
+
+.card_text {
+	color: #8d8d8d;
+	font-family: "Poppins", sans-serif;
+	line-height: 1.9em;
+	margin: 10px 0;
+	font-size: 15px;
+}
+
+.card_readMore {
+	color: orange;
+	font-family: "Poppins", sans-serif;
+	line-height: 1.9em;
+	margin: 10px 0;
+	font-size: 15px;
+}
+
+.card_readMore:hover {
+	font-weight: 900;
+}
