@@ -10,7 +10,7 @@
 	}
 
 	.hero_Middle_Wrapper_mobile {
-		display: flex;
+	width: 100%;
 	}
 
 	.hero_image_Mobile {
